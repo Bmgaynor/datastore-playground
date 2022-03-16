@@ -15,12 +15,12 @@ async function run() {
   const taskKey = datastore.key([kind, name]);
 
   // Prepares the new entity
-  const task = {
-    key: taskKey,
-    data: {
-      description: "Buy milk",
-    },
-  };
+  // const task = {
+  //   key: taskKey,
+  //   data: {
+  //     description: "Buy milk",
+  //   },
+  // };
 
   // Saves the entity
   //   const [result] = await datastore.save(task);
