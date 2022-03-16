@@ -27,7 +27,7 @@ async function run() {
   //   console.debug(result.mutationResults);
 
   const [entity] = await datastore.get(taskKey);
-  console.debug(entity);
+  // console.debug(entity);
 
   //   const [response] = await datastore.delete(taskKey);
   //   console.debug(response);
