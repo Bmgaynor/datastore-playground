@@ -30,7 +30,6 @@ async function run() {
   console.debug(entity);
 
   //   const [response] = await datastore.delete(taskKey);
-  //   console.debug(response);
   //
 }
 
